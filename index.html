@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Google Icon Fetcher</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Google Material Icon Fetcher</h1>
+
+      <div class="form-group">
+        <label for="name-input">Icon name:</label>
+        <input id="name-input" type="text" placeholder="e.g. check_circle" />
+      </div>
+
+      <div class="form-group checkbox-group">
+        <input id="fill-input" type="checkbox" />
+        <label for="fill-input">Use filled style</label>
+      </div>
+
+      <div class="buttons">
+        <button id="get-icon-btn">Get Icon</button>
+        <button id="download-svg-btn" class="secondary">Download SVG</button>
+      </div>
+
+      <div class="preview">
+        <img id="image" width="100" alt="Preview will appear here" />
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
